@@ -9,7 +9,7 @@ namespace Trinity\Component\Core\Interfaces;
 interface ProductInterface extends EntityInterface
 {
     /**
-     * @return sting
+     * @return string
      */
     public function getName();
 
