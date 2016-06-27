@@ -20,7 +20,7 @@
     "autoload": {
 
       "psr-4": {
-        "Trinity\\Component\\Core\\Interfaces\\": ""
+        "Trinity\\Component\\Core\\": ""
       },
 
       "exclude-from-classmap": [

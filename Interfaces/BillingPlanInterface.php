@@ -9,6 +9,9 @@ namespace Trinity\Component\Core\Interfaces;
 interface BillingPlanInterface
 {
 
+    /**
+     * @return int|null
+     */
     public function getId();
 
 
@@ -18,7 +21,10 @@ interface BillingPlanInterface
     public function getInitialPrice();
 
 
-    public function getProduct();
+    /**
+     * @return ProductInterface
+     */
+    public function getProduct() : ProductInterface;
 
 
     public function getRebillPrice();
