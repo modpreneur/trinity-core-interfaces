@@ -6,18 +6,17 @@ namespace Trinity\Component\Core\Interfaces;
  * Interface BillingPlanInterface
  * @package Trinity\Component\Core\Interfaces
  */
-interface BillingPlanInterface
+interface BillingPlanInterface extends EntityInterface
 {
 
     /**
-     * @return int|null
+     * @return int
      */
-    public function getId();
-
-
     public function getFrequency();
 
-
+    /**
+     * @return float
+     */
     public function getInitialPrice();
 
 
@@ -26,18 +25,28 @@ interface BillingPlanInterface
      */
     public function getProduct() : ProductInterface;
 
-
+    /**
+     * @return float
+     */
     public function getRebillPrice();
 
-
+    /**
+     * @return int
+     */
     public function getRebillTimes();
 
-
+    /**
+     * @return string
+     */
     public function getType();
 
-
+    /**
+     * @return int
+     */
     public function getTrial();
 
-
+    /**
+     * @return bool
+     */
     public function isRecurring();
 }

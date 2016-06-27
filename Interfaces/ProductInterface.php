@@ -6,15 +6,15 @@ namespace Trinity\Component\Core\Interfaces;
  * Interface ProductInterface
  * @package Trinity\Component\Core\Interfaces
  */
-interface ProductInterface
+interface ProductInterface extends EntityInterface
 {
-
-    public function getId();
-
-    
+    /**
+     * @return sting
+     */
     public function getName();
 
-
+    /**
+     * @return string
+     */
     public function getDescription();
-
 }
