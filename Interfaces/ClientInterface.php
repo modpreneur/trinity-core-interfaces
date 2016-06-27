@@ -5,8 +5,11 @@ namespace Trinity\Component\Core\Interfaces;
 /**
  * Interface ClientInterface
  */
-interface ClientInterface extends EntityInterface
+interface ClientInterface
 {
+    /** @return int */
+    public function getId();
+
     /** @return string */
     public function getNotificationUri();
 
