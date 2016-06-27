@@ -27,6 +27,9 @@ interface BillingPlanInterface
     public function getRebillTimes();
 
 
+    public function getType();
+
+
     public function getTrial();
 
 
