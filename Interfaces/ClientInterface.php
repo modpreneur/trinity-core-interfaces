@@ -10,10 +10,6 @@ interface ClientInterface
     /** @return int */
     public function getId();
 
-    /** @return string */
-    public function getNotificationUri();
-
-
     /** @return  boolean */
     public function isNotified();
 
