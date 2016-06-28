@@ -23,7 +23,7 @@ interface BillingPlanInterface extends EntityInterface
     /**
      * @return ProductInterface
      */
-    public function getProduct() : ProductInterface;
+    public function getProduct();
 
     /**
      * @return float
