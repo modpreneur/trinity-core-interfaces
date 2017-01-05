@@ -44,35 +44,35 @@ interface UserInterface extends EntityInterface
      */
     public function getPublic();
 
-    /**
-     * @return string
-     */
-    public function getAddressLine1();
-
-    /**
-     * @return string
-     */
-    public function getAddressLine2();
-
-    /**
-     * @return string
-     */
-    public function getCity();
-
-    /**
-     * @return string
-     */
-    public function getCountry();
-
-    /**
-     * @return string
-     */
-    public function getPostalCode();
-
-    /**
-     * @return string
-     */
-    public function getRegion();
+//     /**
+//      * @return string
+//      */
+//     public function getAddressLine1();
+// 
+//     /**
+//      * @return string
+//      */
+//     public function getAddressLine2();
+// 
+//     /**
+//      * @return string
+//      */
+//     public function getCity();
+// 
+//     /**
+//      * @return string
+//      */
+//     public function getCountry();
+// 
+//     /**
+//      * @return string
+//      */
+//     public function getPostalCode();
+// 
+//     /**
+//      * @return string
+//      */
+//     public function getRegion();
 
     /**
      * @return int
