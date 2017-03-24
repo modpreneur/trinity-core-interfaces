@@ -49,4 +49,9 @@ interface BillingPlanInterface extends EntityInterface
      * @return bool
      */
     public function isRecurring();
+
+    /**
+     * @return string
+     */
+    public function getItemId();
 }
